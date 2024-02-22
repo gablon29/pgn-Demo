@@ -35,3 +35,56 @@ body {
   height: 150px;
   background-size: cover;
 }
+
+.medio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.medio img {
+  margin: 5px;
+  border: 5px solid brown;
+}
+
+.medio article {
+  margin: 5px;
+  padding: 5px;
+  width: 40%;
+}
+
+.medio article p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: brown;
+  font-weight: bold;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+
+.cards-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 5px;
+}
+
+.cards-section div h3 {
+  border-bottom: #124569 5px solid;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.cards-section div p {
+  margin: 2px;
+  font-style: oblique;
+}
