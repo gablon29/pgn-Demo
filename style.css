@@ -64,7 +64,7 @@ body {
 
 .cards-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   height: auto;
 }
@@ -75,6 +75,7 @@ body {
   align-items: center;
   background-color: aliceblue;
   margin: 5px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .cards-section div h3 {
@@ -87,4 +88,5 @@ body {
 .cards-section div p {
   margin: 2px;
   font-style: oblique;
+  width: auto;
 }
