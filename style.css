@@ -86,7 +86,7 @@ body {
 }
 
 .cards-section div p {
-  margin: 2px;
+  margin: 0 0 0 5px;
   font-style: oblique;
   width: auto;
 }
